@@ -2,7 +2,7 @@
 
 An interactive 3D learning page for the **STM32 NUCLEO-H723ZG (MB1364)**. Rotate the board, hover any part to see what it does, flip it over to see the back, and read the manual’s power, jumper, solder-bridge, pinout and safety information in one place.
 
-**Live demo:** `https://simsim-cs.github.io/nucleo-h723zg-3d-explorer/` (after you enable GitHub Pages)
+**Live demo:** `https://learn-boards-nucleo-h723zg.vercel.app/` 
 
 ## Features
 
