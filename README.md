@@ -15,18 +15,6 @@ An interactive 3D learning page for the **STM32 NUCLEO-H723ZG (MB1364)**. Rotate
 - **Config tab:** default jumpers, HSE/LSE options, virtual COM port, USB and Ethernet pins, solder bridges.
 - **Safety tab:** handling, powering and I/O cautions, compliance and disposal.
 
-## Run it
-
-It is a single static file.
-
-```bash
-git clone https://github.com/simsim-cs/nucleo-h723zg-3d-explorer
-cd nucleo-h723zg-3d-explorer
-python3 -m http.server 8000   # then open http://localhost:8000
-```
-
-Opening `index.html` directly from disk may block the board textures in some browsers, so use a local server or GitHub Pages. three.js (r128) loads from cdnjs.
-
 ## Sources and accuracy
 
 - **UM2407 Rev 6** (April 2026), *STM32H7 Nucleo-144 boards (MB1364)*, for connectors, power, clocks, jumpers, solder bridges and safety.
